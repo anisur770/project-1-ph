@@ -1,0 +1,95 @@
+body{
+    background:white;
+    padding: 10px;
+
+}
+h1{
+   font-size: 45px;
+}
+span{
+    color: orangered;
+}
+header{
+    display:flex;
+    padding: 10px;
+}
+.header-width{
+    width: 100%;
+    height:50px;
+    
+}
+#btn{
+    
+    padding: 10px, 20px;
+    background-color: rgb(196, 194, 174);
+    border-radius:10px;
+    height:30px;
+    width:100px;
+    background-image: linear-gradient(rgb(233, 218, 218), rgb(113, 49, 233));
+}
+    
+.home-section{
+    display: flex;
+    height: 600px;
+    
+}
+.half-width{
+    width: 50%;
+    height: 500px;
+}
+.half-width img{
+    width: 90%;
+    height:500px;
+    padding: 5px;
+}
+.link-btn{
+    text-decoration: none;
+    height: 40px;
+    border-radius: 20px;
+    background-image: linear-gradient(rgb(226, 27, 27), rgb(233, 114, 93));
+    color: black;
+    padding: 10px 40px ;
+}
+#content-sec{
+    background-image: url(/Images/shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    padding:0px;
+    background-position: 100%;
+}
+.recipies{
+    text-align: center;
+    text-justify: auto;
+}
+.recipies-box{
+    text-align: center;
+    text-justify: auto;
+    display: flex;
+    padding: 0px 40px;
+
+    
+}
+.recipies-food{
+    width:25%;
+    padding:20px;
+
+    border: 2px solid white;
+   border-radius: 30px;
+   margin: 20px;
+   box-shadow:4px 0px 10px 8px  #e0cbcb;
+
+}
+.recipies-food img{ 
+    height:350px;
+    width:100%;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+.followers{
+    display: flex;
+    height:350px;
+}
+.followers-box{
+    width:30%;
+    height:300px;
+    border: 1px solid red;
+}
